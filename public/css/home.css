@@ -165,7 +165,7 @@
 .navbar_bott_menu_box .browse_box {
   width: 185px;
   height: 30px;
-
+  margin-top: 10px;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -188,7 +188,8 @@
 }
 
 .navbar_bott_menu_box .navbar_route_menu {
-  margin-lest: 12px;
+  margin-top: 10px;
+  margin-left: 12px;
   width: 690px;
   height: 41px;
 
@@ -218,6 +219,7 @@
   flex-direction: row;
 }
 .sorting_menu span {
+  margin-top: 10px;
   margin-right: 20px;
   font-family: "Jost";
   font-style: normal;
