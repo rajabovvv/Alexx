@@ -6,12 +6,6 @@ body {
 
 a {
   text-decoration: 0;
-  color: var(--Color-Text-Dark, #041e42);
-  font-family: Jost;
-  font-size: 15px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 22px;
 }
 p {
   margin: 0;
