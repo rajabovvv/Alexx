@@ -907,3 +907,16 @@
   justify-content: center;
   align-items: center;
 }
+.tv_product_box span {
+  color: var(--Color-Text-Light, #626974);
+  font-family: Jost;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+  text-transform: uppercase;
+}
+
+.tv_product_box .price_box span {
+  text-decoration-line: strikethrough;
+}
