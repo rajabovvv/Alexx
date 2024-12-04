@@ -950,7 +950,7 @@
   justify-content: center;
 }
 
-.container .event_content_box {
+.event_frame .container .event_content_box {
   width: 340px;
   height: auto;
 
@@ -959,7 +959,7 @@
   justify-content: center;
 }
 
-.event_content_box .event_title {
+.event_frame .event_content_box .event_title {
   color: var(--Bg-White, #fff);
   font-family: Jost;
   font-size: 28px;
@@ -969,7 +969,7 @@
   text-transform: capitalize;
 }
 
-.event_content_box a {
+.event_frame .event_content_box a {
   width: 140px;
   height: 50px;
   display: flex;
@@ -981,13 +981,13 @@
   background: #ffff;
 }
 
-.event_content_box .timer_wrapper {
+.event_frame .event_content_box .timer_wrapper {
   margin: 30px;
   display: flex;
   flex-direction: row;
 }
 
-.timer_wrapper .timer_box {
+.event_frame .timer_wrapper .timer_box {
   width: 82px;
   height: auto;
 
@@ -995,7 +995,7 @@
   flex-direction: column;
 }
 
-.timer_box strong {
+.event_frame .timer_box strong {
   color: var(--Bg-White, #fff);
   font-family: Jost;
   font-size: 28px;
@@ -1004,7 +1004,7 @@
   line-height: normal;
 }
 
-.timer_box span {
+.event_frame .timer_box span {
   color: var(--Bg-White, #fff);
   font-family: Jost;
   font-size: 16px;
@@ -1012,7 +1012,7 @@
   font-weight: 500;
   line-height: 28px;
 }
-.event_content_box a {
+.event_frame .event_content_box a {
   width: 140px;
   height: 50px;
 
@@ -1028,7 +1028,7 @@
   line-height: 22px;
 }
 
-.container .event_product_wrapper {
+.event_frame .container .event_product_wrapper {
   width: 930px;
   height: auto;
   margin-top: 100px;
@@ -1037,7 +1037,7 @@
   flex-direction: row;
 }
 
-.event_product_wrapper .event_product_boxes {
+.event_frame .event_product_wrapper .event_product_boxes {
   position: relative;
   width: auto;
   height: auto;
@@ -1046,7 +1046,7 @@
   flex-direction: row;
 }
 
-.event_product_boxes .event_product_box {
+.event_frame .event_product_boxes .event_product_box {
   margin-right: 8px;
   width: 205px;
   height: 392px;
@@ -1057,7 +1057,7 @@
   background: #ffff;
 }
 
-.event_product_box .event_product_img {
+.event_frame .event_product_box .event_product_img {
   width: 100%;
   height: 220px;
 
@@ -1066,5 +1066,5 @@
   justify-content: center;
 }
 
-.review_box .price_box {
+.event_frame .review_box .price_box {
 }
